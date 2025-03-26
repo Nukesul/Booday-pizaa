@@ -571,7 +571,7 @@ class ProductView(APIView):
                             status=status.HTTP_500_INTERNAL_SERVER_ERROR
                         )
 
-            # Обновляем продукт
+            # Обновляем продук
             product.name = name
             product.branch = branch
             product.subcategory = subcategory
